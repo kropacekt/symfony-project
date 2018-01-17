@@ -1,0 +1,12 @@
+index:
+    path: /
+    defaults: { _controller: 'App\Controller\DefaultController::index' }
+
+#app_my_first_method:
+##  path: /my-first/my-first-method
+#  path: /my-first/my-first-method
+#  controller: App\Controller\MyFirstController::myFirstMethod
+
+app_lucky_number:
+    path: /lucky/number
+    controller: App\Controller\LuckyController::number
